@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/main_theme.ogg-3ba476b00bef09971747f5c14110300d.oggstr"
+
+[deps]
+
+source_file="res://sunds/main_theme.ogg"
+dest_files=[ "res://.import/main_theme.ogg-3ba476b00bef09971747f5c14110300d.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

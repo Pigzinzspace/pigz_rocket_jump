@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/get_damage.ogg-0bf1e3e12620b32d5c9d34ea9ea13391.oggstr"
+
+[deps]
+
+source_file="res://sunds/get_damage.ogg"
+dest_files=[ "res://.import/get_damage.ogg-0bf1e3e12620b32d5c9d34ea9ea13391.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

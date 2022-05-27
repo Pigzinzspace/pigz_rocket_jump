@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/rocket.ogg-4aeca1b1d43fe60f129962f5cddf7472.oggstr"
+
+[deps]
+
+source_file="res://sunds/rocket.ogg"
+dest_files=[ "res://.import/rocket.ogg-4aeca1b1d43fe60f129962f5cddf7472.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

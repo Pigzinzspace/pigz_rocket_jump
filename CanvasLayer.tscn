@@ -1,0 +1,59 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://CanvasLayer2.gd" type="Script" id=1]
+[ext_resource path="res://font/Exo2-SemiBoldExpanded.otf" type="DynamicFontData" id=2]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.101961, 0.0941176, 0.0941176, 0.392157 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 32
+outline_color = Color( 0.12549, 0.0117647, 0.0117647, 1 )
+font_data = ExtResource( 2 )
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 0.0666667, 0.0666667, 0.0666667, 0.203922 )
+
+[node name="CanvasLayer" type="CanvasLayer"]
+layer = 2
+script = ExtResource( 1 )
+
+[node name="Label" type="Label" parent="."]
+margin_right = 216.0
+margin_bottom = 218.0
+custom_styles/normal = SubResource( 1 )
+text = "SD - move
+Space - jump
+L Mouse - rocket
+
+Rockets : 23
+HP : 309
+Data boxes : 0
+Tme left : 180
+Level : 0
+
+Main goal : Find 3 data boxes
+Evacuation :  Find a cyan exit door
+"
+
+[node name="Label2" type="Label" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_vertical = 1
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 2 )
+custom_styles/normal = SubResource( 3 )
+text = "LEVEL 0
+10 leledsfuhsidufhiush
+jahsgdjhasgdjasghd"
+valign = 1
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 3.0
+one_shot = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
